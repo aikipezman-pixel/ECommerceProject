@@ -11,14 +11,23 @@ nav {
    display: flex;
 }
 
+img {
+    width: 100%;
+}
+
 .nav__container {
-    display: flex;
+    width: 100%;
     max-width: 1200px;
     padding: 0 24px;
-    width: 100%;
+    display: flex;
     justify-content: space-between;
     align-items: center;
     margin: 0 auto;
+}
+
+
+.winered {
+    color: #7c0b55;
 }
 
 .logo {
@@ -50,4 +59,30 @@ li {
  }
  .nav__link--primary:hover {
     text-decoration: none;
+ }
+ #landing {
+    background-color: #fad9ee;
+ }
+
+ header {
+    height: calc(100vh - 80px);
+ }
+
+ .header__container {
+    width: 100%;
+    max-width: 720px;
+    margin: 0 auto;
+    height: 100%;
+    flex-direction: column;
+ }
+
+ h1 {
+    font-size: 56px;
+    color:#7c0b55;
+    margin-bottom: 24px;
+    text-align: center;
+ }
+ h2 { 
+    text-align: center;
+
  }
