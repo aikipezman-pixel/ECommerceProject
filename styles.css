@@ -83,7 +83,6 @@ li {
     height: 100%;
     flex-direction: column;
     justify-content: space-around;
-
  }
 
  .header__description {
@@ -209,6 +208,7 @@ button:active {
 
 .books {
     display: flex;
+    flex-wrap: Wrap;
 }
 
 .book {
@@ -249,4 +249,9 @@ button:active {
     text-decoration: line-through;
     padding-right: 6px;
     color: #bfbfbf
+}
+/*explore*/
+
+#explore {
+    background-color: rgba(115, 66, 214, 0.1)
 }
